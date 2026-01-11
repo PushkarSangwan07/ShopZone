@@ -1,0 +1,40 @@
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px 25px;
+    background:lightcyan;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+  
+  
+  
+  .container input[type="text"],
+  .container input[type="email"],
+  .container input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0 16px 0;
+    border: 1px solid #a86c13;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+  
+  .container button {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(0, 217, 206);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ;
+  }
+  
+  .container button:hover {
+    background-color: darkblue;
+  }
+  
