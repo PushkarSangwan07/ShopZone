@@ -1,21 +1,86 @@
+# <<<<<<< HEAD
+# # Node modules
+# node_modules/
+
+# # Env files
+# *.env
+
+# # Logs
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
+
+# # OS files
+# .DS_Store
+# Thumbs.db
+
+# # Frontend build
+# frontend/build/
+
+# # Optional: Editor files
+# .vscode/
+# .idea/
+# =======
+# # Environment variables
+# .env
+# .env.*
+
+# # Node modules
+# node_modules/
+
+# # Logs
+# logs
+# *.log
+# npm-debug.log*
+
+# # OS files
+# .DS_Store
+
+# # Build
+# dist
+# >>>>>>> 1e89bf292473acecfe741380d57144577aa57b83
+
+
+
+# ====================
 # Node modules
+# ====================
+backend/node_modules/
+frontend/node_modules/
 node_modules/
 
-# Env files
-*.env
+# ====================
+# Environment files
+# ====================
+backend/.env
+frontend/.env
+.env
+.env.*
 
+# ====================
 # Logs
+# ====================
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# ====================
 # OS files
+# ====================
 .DS_Store
 Thumbs.db
 
-# Frontend build
+# ====================
+# Build / Output
+# ====================
+backend/dist/
 frontend/build/
 
-# Optional: Editor files
+# ====================
+# Optional Editor / IDE files
+# ====================
 .vscode/
 .idea/
+
